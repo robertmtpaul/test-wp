@@ -1,4 +1,5 @@
 <?php
+// fetch theme header template:
 get_header();
 if (have_posts()):
 	while (have_posts()) : 
