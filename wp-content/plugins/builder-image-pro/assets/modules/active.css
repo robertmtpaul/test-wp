@@ -1,0 +1,11 @@
+.tb_module_front.module-pro-image .image-pro-wrap{
+	float:inherit
+}
+.tb_module_front.module-pro-image.fullwidth_image,
+.tb_module_front.module-pro-image.fullwidth_image img{
+	width:100%!important;
+	height:auto!important
+}
+.themify_builder_active .module .image-pro-flip-box > img{
+	object-fit:cover
+}

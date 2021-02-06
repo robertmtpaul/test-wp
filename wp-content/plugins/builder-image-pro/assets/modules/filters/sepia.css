@@ -1,0 +1,6 @@
+.module-pro-image.filter-sepia img{
+    filter:sepia(100%)
+}
+.module.filter-sepia .image-pro-wrap:hover img{
+    filter:none
+}

@@ -1,0 +1,6 @@
+.module-pro-image.effect-rotate img{
+	transform:rotate(15deg) scale(1.4)
+}
+.module-pro-image.effect-rotate:not([class*="entrance-effect-flip-"]) .image-pro-wrap:hover img{
+	transform:rotate(0) scale(1)
+}

@@ -1,0 +1,21 @@
+.entrance-effect-flip-vertical .tile-flip-box-wrap{
+    overflow:visible
+}
+.entrance-effect-flip-vertical img{
+    transition:.75s
+}
+.entrance-effect-flip-vertical.image-pro-flip .image-pro-overlay,
+.entrance-effect-flip-vertical:not(.effect-rotate) img{
+    transform:rotateX(0deg)
+}
+.entrance-effect-flip-vertical .image-pro-overlay{
+    transform:rotateX(-180deg);
+    transition:.75s;
+    visibility:visible
+}
+.entrance-effect-flip-vertical.image-pro-flip img{
+    transform:rotateX(180deg)
+}
+.entrance-effect-flip-vertical .image-pro-flip-button{
+	display:block
+}
